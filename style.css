@@ -1,0 +1,31 @@
+table {
+	border: 1px solid #474646;
+	border-collapse: collapse;
+	color: #3b3b3b;
+}
+
+td {
+	border: 1px solid #474646;
+	padding: 4px;
+}
+
+th {
+	border: 1px solid #474646;
+	background: linear-gradient(to bottom, #b8e2fc, #81c2eb);
+	cursor: pointer;
+	color: #3b3b3b;
+}
+
+.sort-up::after {
+	content: ' ↑';
+}
+
+.sort-down::after {
+  content: ' ↓';
+} 
+
+.sort-up, .sort-down {
+  background: linear-gradient(to bottom, #81c2eb, #2b7bbd);
+  color: #fff;
+
+}
